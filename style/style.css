@@ -119,6 +119,50 @@ nav li a {
     color: #FF900E;
 }
 
+/* features-description style */
+.features-description {
+    padding: 50px 200px;
+}
+
+.featurse-description-container {
+    display: flex;
+    gap: 50px;
+}
+
+.features-description-image img {
+    margin-top: 200px;
+    width: 130%;
+}
+
+.features-card {
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.features-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.ten-years-badge {
+    border-radius: 0.5rem;
+    background: #FF900E;
+    color: #FFF;
+    padding: 1.5rem 2rem;
+    width: 300px;
+    position: relative;
+    bottom: 100px;
+    
+    
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
 /* Some facts Style */
 .some-facts {
     padding: 50px 240px;
@@ -144,7 +188,7 @@ nav li a {
     color: #727272;
     font-weight: 600;
     font-size: 1.2rem;
-    
+
 
 }
 
@@ -153,17 +197,19 @@ nav li a {
     border: 1px solid #FF900E;
     padding: 10px 10px 0 10px;
     width: 100%;
-    
+
 }
+
 /* sponsors style */
-.sponsor-content{
+.sponsor-content {
     text-align: center;
 }
-.sponsor-image-container{
+
+.sponsor-image-container {
     padding: 50px 150px;
     display: flex;
     justify-content: space-evenly;
-    gap:20px;
+    gap: 20px;
 }
 
 
@@ -176,8 +222,13 @@ nav li a {
     }
 
     nav,
-    .card-container,.sponsor-image-container {
+    .card-container,
+    .sponsor-image-container {
         flex-direction: column;
+    }
+    .featurse-description-container{
+        flex-direction: column;
+        padding: 15px;
     }
 
     /* features style */
@@ -197,7 +248,7 @@ nav li a {
     }
 
     .some-facts,
-    .card-container{
+    .card-container {
         padding: 15px;
     }
 
@@ -221,11 +272,13 @@ nav li a {
         flex-direction: column;
     }
 
-    .features-container,.card-container,.sponsor-image-container{
+    .features-container,
+    .card-container,
+    .sponsor-image-container {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        
+
     }
 
     .features-image {
